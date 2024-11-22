@@ -1,0 +1,82 @@
+/* General Container Styling */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a2e; /* Dark background for the theme */
+    margin: 0;
+  }
+  
+  /* Card Styling */
+  .auth-card {
+    background: #162447; /* Dark blue card theme */
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  /* Title Styling */
+  .auth-title {
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Error Message Styling */
+  .auth-error {
+    color: #ff4f5e;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Form Input Styling */
+  .auth-input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #1f4068;
+    color: #ffffff;
+  }
+  
+  /* Button Styling */
+  .auth-btn {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #e43f5a;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .auth-btn:hover {
+    background-color: #d32f4f;
+  }
+  
+  /* Footer and Links */
+  .auth-footer {
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+  
+  .auth-link {
+    color: #21e6c1;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .auth-link:hover {
+    text-decoration: underline;
+  }
+  

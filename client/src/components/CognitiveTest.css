@@ -1,0 +1,22 @@
+.cognitive-test {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .results {
+    text-align: left;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  button {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  

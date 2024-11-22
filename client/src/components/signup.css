@@ -1,0 +1,72 @@
+.auth-container {
+  background-color: #3e3e5e; /* Deep slate blue */
+  padding: 40px;
+  border-radius: 10px;
+  color: #f0f0f0; /* Light gray */
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.auth-container h2 {
+  margin-bottom: 20px;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container label {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.auth-container input {
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+  background-color: #26263d; /* Dark background */
+  color: #f0f0f0; /* Light text */
+}
+
+.auth-container button {
+  padding: 12px;
+  background-color: #5865f2; /* Blue button */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.auth-container button:hover {
+  background-color: #4753d1; /* Slightly darker blue */
+}
+
+.auth-container .google-signin {
+  background-color: #d4d4d4;
+  color: #333;
+  margin-top: 10px;
+}
+
+.auth-container .role-selection {
+  margin: 10px 0;
+  text-align: left;
+}
+
+.auth-container .role-selection label {
+  margin-right: 10px;
+}
+
+.auth-container a {
+  color: #00bfff;
+  text-decoration: underline;
+}
+
+.auth-container a:hover {
+  color: #00acee;
+}
